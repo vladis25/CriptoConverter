@@ -1,0 +1,12 @@
+label {
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  text-align: left;
+}
+input{
+  border: solid 3px rgb(0, 94, 255);
+  border-radius: 8px;
+  height: 20px;
+  width: fit-content;
+}

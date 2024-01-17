@@ -1,0 +1,32 @@
+    button{
+        width: 120px;
+        padding:10px 10px;
+        margin: 5px auto;
+        border: none;
+        font-size: 14px;
+        font-weight: 800;
+        border-radius: 5px;
+        opacity: 0.9;
+        text-transform: capitalize;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+    }
+    button:hover{
+        opacity: 0.6;
+    }
+    .primary {
+    }
+    .green {
+      background-color: Green;
+      color: white;
+    }
+    .secondary {
+      background-color: #645c5c;
+      color: white;
+    }
+    .error {
+      background-color: red;
+      color: white;
+    }
