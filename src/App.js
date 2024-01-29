@@ -1,12 +1,20 @@
-import './App.css';
-import CurrencyConverter from './components/Converter/CurrencyConverter';
+import React from "react";
 
-function App() {
+import CurrencyConverter from './components/Converter';
+import CurrencyRates from "./components/Rates";
+
+import './App.css'
+
+
+const App = () => {
+  
+
   return (
-    <div className="App">
+    <div className='app'>
       <CurrencyConverter />
+      <CurrencyRates />
     </div>
   );
-}
+};
 
 export default App;

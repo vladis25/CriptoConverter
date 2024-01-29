@@ -1,11 +1,12 @@
+
 import React from "react";
-import './input.css'
+import styles from "./input.module.css";
 
 const Input = ({ label, value, onChange }) => {
   return (
-    <div>
+    <div className={styles.inputWrapper}>
       <label>{label}</label>
-      <input type="number" value={value} onChange={(e) => onChange(e.target.value)} />
+      <input type="number" value={value} onChange={(e) => onChange(e.target.value)} className={styles.input} />
     </div>
   );
 };
